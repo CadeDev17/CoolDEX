@@ -488,7 +488,10 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Cool DAO Exchange!</h1>
+          <img className={styles.image} src="./twitterpfp.png" />
+        </div>
+        <div>
+          <h1 className={styles.title}>Cool DEX Exchange!</h1>
           <div className={styles.description}>
             Exchange Ethereum &#60;&#62; Cool DAO Tokens
           </div>
@@ -510,10 +513,7 @@ export default function Home() {
               Swap
             </button>
           </div>
-          {renderButton()}
-        </div>
-        <div>
-          <img className={styles.image} src="./cryptodev.svg" />
+          {/* {renderButton()} */}
         </div>
       </div>
 
